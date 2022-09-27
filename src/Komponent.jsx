@@ -3,8 +3,9 @@ import {Button} from "@mui/material"
 
 const Komponent =()=>{
     return(
-        <Button>
-            TEST
+        <Button variant="contained" href='https://google.com' color='info'
+        >
+           Google
         </Button>
     )
 

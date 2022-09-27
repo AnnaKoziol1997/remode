@@ -4,7 +4,8 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const deps = require("./package.json").dependencies;
 module.exports = {
   output: {
-    publicPath: "https://remotemf-3c051.web.app/",
+    publicPath: //"http://localhost:2222/"
+    "https://remotemf-3c051.web.app/",
   },
 
   resolve: {
